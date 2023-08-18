@@ -1,0 +1,14 @@
+cds/
+genomes/
+proteomes/
+archive/
+databases/
+outputs/
+do_not_delete/
+removed/
+ncbi_key.txt
+authenticate.txt
+test.ipynb
+look_at_it.ipynb
+cookies
+findings
