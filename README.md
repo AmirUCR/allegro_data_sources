@@ -34,7 +34,7 @@ The order you should visit these files is as follows:
 For steps 1 through 4, visit here: https://drive.google.com/drive/folders/1FSkpgUBtfJ4NcyftYYQicKJLKNVGUR9d?usp=drive_link 
 After downloading data from each database, run the appropriate `2_add_gene_prot_names.py` to homogenize protein/CDS ID conventions.
 
-Then run `copy_db_union.py` to merge all databases and place the unique species in directory `fourdb_concat`. Run all cells in `dourdbs_concat/fix.ipynb` to remove non-unicode characters (e.g., punctuations) from file names. This will also remove species with six or seven missing orthologs (we find these species in the next step after running diamond. After diamond is finished, we find these species in `diamond/analysis_missing_orthologs.ipynb`).
+Then run `copy_db_union.py` to merge all databases and place the unique species in directory `fourdb_concat`. Run all cells in `fourdbs_concat/fix.ipynb` to remove non-unicode characters (e.g., punctuations) from file names. This will also remove species with six or seven missing orthologs (we find these species in the next step after running diamond. After diamond is finished, we find these species in `diamond/analysis_missing_orthologs.ipynb`).
 
 
 ## Generating Orthologs
