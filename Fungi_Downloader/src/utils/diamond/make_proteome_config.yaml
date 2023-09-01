@@ -1,0 +1,9 @@
+# All attributes must be valid and are required at the same time.
+
+cds_path: '/home/amohs002/projects/research/yeast_common_guides/Fungi_Downloader/data/fourdbs_concat/cds/saccharomyces_cerevisiae_cds.fna'
+proteome_path: '/home/amohs002/projects/research/yeast_common_guides/Fungi_Downloader/data/fourdbs_concat/proteomes/saccharomyces_cerevisiae.faa'
+
+species: 'saccharomyces_cerevisiae'  # reference species
+gene_names: [
+  'LYS2', 'MET17', 'TRP1', 'URA3', 'FCY1', 'GAP1', 'CAN1'
+]

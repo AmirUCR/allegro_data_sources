@@ -1,0 +1,10 @@
+# All attributes must be valid and are required at the same time.
+cds_directory: '../../../data/fourdbs_concat/cds/'
+input_species_directory: '../../../data/fourdbs_concat/fourdbs_hi_input_species.csv'
+ortho_path: '../diamond/Orthogroups_HI.tsv'
+
+reference_species: 'saccharomyces_cerevisiae'  # species must match with species.fna in cds path and a column name in Orthogroups.tsv
+
+gene_names: [
+  'LYS2', 'MET17', 'TRP1', 'URA3', 'FCY1', 'GAP1', 'CAN1'
+]

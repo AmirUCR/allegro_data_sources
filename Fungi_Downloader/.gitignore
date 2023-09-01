@@ -1,0 +1,7 @@
+data/
+src/utils/diamond/inputs/databases/
+src/utils/ortholog_finder/orthogroups/
+src/downloaders/MycoCosm/authenticate.txt
+src/downloaders/MycoCosm/cookies
+src/downloaders/NCBI/ncbi_key.txt
+__pycache__/
