@@ -32,8 +32,8 @@ def merge_dbs():
     ensembl['source'] = 'EnsemblFungi'
 
     source_to_dir = {
-        'NCBI': fdb_dir,
-        'FungiDB': ncbi_dir,
+        'NCBI': ncbi_dir,
+        'FungiDB': fdb_dir,
         'MycoCosm': mycocosm_dir,
         'EnsemblFungi': ensembl_dir
     }
@@ -44,8 +44,37 @@ def merge_dbs():
     mycocosm = mycocosm.drop_duplicates(subset='species_name').reset_index(drop=True)
 
     concat = pd.concat([ncbi, fdb, ensembl, mycocosm], ignore_index=True)
-    all_dupes = concat[concat.duplicated(subset=['species_name'])]
-    concat = concat[~all_dupes].reset_index(drop=True)
+    concat = concat.drop_duplicates(subset=['species_name'])
+
+    # Losers go here
+    if 'candida_glabrata' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'candida_glabrata']
+    
+    if 'lasallia_pustulata' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'lasallia_pustulata']
+
+    if 'neosartorya_fischeri_nrrl_181' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'neosartorya_fischeri_nrrl_181']
+
+    if 'aspergillus_campestris' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'aspergillus_campestris']
+
+    if 'volvariella_volvacea_v23' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'volvariella_volvacea_v23']
+
+    if 'mucor_racemosus' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'mucor_racemosus']
+
+    if 'mucor_lanceolatus' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'mucor_lanceolatus']
+
+    if 'mucor_fuscus' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'mucor_fuscus']
+
+    if 'mucor_endophyticus' in concat['original_name'].values:
+        concat = concat[concat['original_name'] != 'mucor_endophyticus']
+
+    concat = concat.reset_index(drop=True)
 
     for idx, row in concat.iterrows():
         if idx % 100 == 0: print(idx, '...')
@@ -59,3 +88,4 @@ def merge_dbs():
         shutil.copy(f"{source_to_dir[row['source']]}/proteomes/{protein_f_name}", new_prot_dir)
 
     concat.to_csv(os.path.join(concat_destination_dir, 'fourdbs_input_species.csv'), index=False)
+    

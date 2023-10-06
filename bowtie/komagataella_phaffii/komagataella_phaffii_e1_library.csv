@@ -1,0 +1,9 @@
+,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster
+23,AAACAATGGAGCTTCATTAG,komagataella_phaffii,1.0,XP_002489365.1,F,56,76,TRP1,Protein: XP_002489365.1,komagataella_phaffii_cds.fna,19
+12704,CAGTTCTTGTATGTCTTTCC,komagataella_phaffii,1.0,XP_002490927.1,RC,229,249,FCY1,Protein: XP_002490927.1,komagataella_phaffii_cds.fna,1663
+14099,CATTTGCAGATGATTGCCAT,komagataella_phaffii,1.0,XP_002489665.1,F,228,248,GAP1,Protein: XP_002489665.1,komagataella_phaffii_cds.fna,1639
+18453,GACAGAAAGTTTGCTGATAT,komagataella_phaffii,1.0,XP_002492605.1,F,267,287,URA3,Protein: XP_002492605.1,komagataella_phaffii_cds.fna,2136
+27469,GTAAACATATCTCTTTGAAT,komagataella_phaffii,1.0,XP_002490264.1,RC,2755,2775,LYS2,Protein: XP_002490264.1,komagataella_phaffii_cds.fna,2751
+29676,GTTGACAACACCTTTGGTGC,komagataella_phaffii,1.0,XP_002493751.1,F,537,557,MET17,Protein: XP_002493751.1,komagataella_phaffii_cds.fna,2915
+33158,TTCTCCAACTTGGCTAACGT,komagataella_phaffii,1.0,XP_002493751.1,F,1113,1133,MET17,Protein: XP_002493751.1,komagataella_phaffii_cds.fna,3223
+34187,TTTAGATACTGGAGAAACCC,komagataella_phaffii,1.0,XP_002490740.1,F,693,713,CAN1,Protein: XP_002490740.1,komagataella_phaffii_cds.fna,3284

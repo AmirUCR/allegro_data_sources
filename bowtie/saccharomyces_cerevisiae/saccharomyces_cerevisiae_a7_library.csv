@@ -1,0 +1,16 @@
+,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster
+1123,ACCAAATGGATTGGTGGTCA,saccharomyces_cerevisiae,1.0,NP_013406.1,F,621,641,MET17,Protein: NP_013406.1,saccharomyces_cerevisiae_cds.fna,125
+3390,AGAATTGCTGCTTTAGAAGG,saccharomyces_cerevisiae,1.0,NP_013406.1,F,207,227,MET17,Protein: NP_013406.1,saccharomyces_cerevisiae_cds.fna,184
+3512,AGATGACAAGGGAGACGCAT,saccharomyces_cerevisiae,1.0,NP_010893.3,F,617,637,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,196
+4826,ATCGGTGGTGCCATCGGTAC,saccharomyces_cerevisiae,1.0,NP_012965.3,F,297,317,GAP1,Protein: NP_012965.3,saccharomyces_cerevisiae_cds.fna,277
+6507,ATTGCTCAAAGAGACATGGG,saccharomyces_cerevisiae,1.0,NP_010893.3,F,546,566,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,341
+9224,CATTTGCAAATGATTGCCAT,saccharomyces_cerevisiae,1.0,NP_012965.3,F,279,299,GAP1,Protein: NP_012965.3,saccharomyces_cerevisiae_cds.fna,432
+9924,CCTGCTTCTGAATCAAACAA,saccharomyces_cerevisiae,1.0,NP_010290.3,RC,229,249,TRP1,Protein: NP_010290.3,saccharomyces_cerevisiae_cds.fna,465
+16482,GATTGGTTGATTATGACACC,saccharomyces_cerevisiae,1.0,NP_010893.3,F,585,605,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,750
+16502,GCACACGGTGTGGTGGGCCC,saccharomyces_cerevisiae,1.0,NP_010893.3,F,360,380,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,754
+16619,GCAGACATTACGAATGCACA,saccharomyces_cerevisiae,1.0,NP_010893.3,F,345,365,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,757
+19093,GGTCATGGTACTACTATCGG,saccharomyces_cerevisiae,1.0,NP_013406.1,F,636,656,MET17,Protein: NP_013406.1,saccharomyces_cerevisiae_cds.fna,868
+19440,GTAAACATATCTCTTTGAAT,saccharomyces_cerevisiae,1.0,NP_009673.1,RC,2758,2778,LYS2,Protein: NP_009673.1,saccharomyces_cerevisiae_cds.fna,890
+24278,TTGAAAGATGTCATGCCTGC,saccharomyces_cerevisiae,1.0,NP_009673.1,F,1758,1778,LYS2,Protein: NP_009673.1,saccharomyces_cerevisiae_cds.fna,1147
+24924,TTGTTTGATTCAGAAGCAGG,saccharomyces_cerevisiae,1.0,NP_010290.3,F,426,446,TRP1,Protein: NP_010290.3,saccharomyces_cerevisiae_cds.fna,1168
+24941,TTTATTGCTCAAAGAGACAT,saccharomyces_cerevisiae,1.0,NP_010893.3,F,543,563,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,1171

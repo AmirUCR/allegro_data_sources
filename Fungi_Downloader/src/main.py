@@ -30,7 +30,7 @@ def main(choice_arg=''):
     if choice in downloaders:
         downloader = downloaders[choice]()
         downloader.download()
-    elif choice == '6':
+    elif choice == '5':
         merge_dbs()
 
     print('Goodbye.')
