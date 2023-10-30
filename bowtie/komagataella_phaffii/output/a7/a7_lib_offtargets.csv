@@ -1,0 +1,9 @@
+Unnamed: 0,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster,0mm_cds_offtargets,1mm_cds_offtargets,2mm_cds_offtargets,0mm_genome_offtargets,1mm_genome_offtargets,2mm_genome_offtargets
+2089,ACCCATTTGACTCCTGCTAT,komagataella_phaffii,1.0,XP_002490264.1,F,1548,1568,LYS2,Protein: XP_002490264.1,komagataella_phaffii_cds.fna,132,0,0,0,0,0,0
+8290,CAGAAGGATATCATGCCGGC,komagataella_phaffii,1.0,XP_002490264.1,F,1785,1805,LYS2,Protein: XP_002490264.1,komagataella_phaffii_cds.fna,399,0,0,0,0,0,0
+9349,CATTTGCAGATGATTGCCAT,komagataella_phaffii,1.0,XP_002489665.1,F,228,248,GAP1,Protein: XP_002489665.1,komagataella_phaffii_cds.fna,384,0,0,0,0,0,0
+11347,CTCGGTGGTACCATTGGTAC,komagataella_phaffii,1.0,XP_002490740.1,F,207,227,CAN1,Protein: XP_002490740.1,komagataella_phaffii_cds.fna,539,0,0,1,0,0,1
+13144,GACAGAAAGTTTGCTGATAT,komagataella_phaffii,1.0,XP_002492605.1,F,267,287,URA3,Protein: XP_002492605.1,komagataella_phaffii_cds.fna,615,0,0,0,0,0,0
+19443,GTAAACATATCTCTTTGAAT,komagataella_phaffii,1.0,XP_002490264.1,RC,2755,2775,LYS2,Protein: XP_002490264.1,komagataella_phaffii_cds.fna,890,0,0,0,0,0,0
+21428,GTTGACAACACCTTTGGTGC,komagataella_phaffii,1.0,XP_002493751.1,F,537,557,MET17,Protein: XP_002493751.1,komagataella_phaffii_cds.fna,929,0,0,0,0,0,0
+24554,TTGCAGATGATTGCCATTGG,komagataella_phaffii,1.0,XP_002489665.1,F,231,251,GAP1,Protein: XP_002489665.1,komagataella_phaffii_cds.fna,304,0,0,1,0,0,1

@@ -1,0 +1,2 @@
+query_name,strand,reference_name,mapping_position,aligned_seq,mismatch,guide_w_pam,guide,num_mutations
+READ_38,+,NC_001137.3,116511,GCAGACATTACGAATGCACACGG,Exact Match,GCAGACATTACGAATGCACACGG,GCAGACATTACGAATGCACA,0

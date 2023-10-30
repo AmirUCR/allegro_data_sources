@@ -1,0 +1,8 @@
+Unnamed: 0,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster,0mm_cds_offtargets,1mm_cds_offtargets,2mm_cds_offtargets,0mm_genome_offtargets,1mm_genome_offtargets,2mm_genome_offtargets
+5187,ATGACGACGTTCATGACAGA,yarrowia_lipolytica,1.0,XP_500977.1,RC,667,687,GAP1,Protein: XP_500977.1,yarrowia_lipolytica_cds.fna,297,0,0,2,0,0,2
+7827,CACTCTGCCACCAAGTGGAT,yarrowia_lipolytica,1.0,XP_503263.1,F,606,626,MET17,Protein: XP_503263.1,yarrowia_lipolytica_cds.fna,389,0,0,0,0,0,0
+8532,CATCTCCAGATGATTGCCAT,yarrowia_lipolytica,1.0,XP_500977.1,F,204,224,GAP1,Protein: XP_500977.1,yarrowia_lipolytica_cds.fna,421,0,3,1,0,3,1
+9623,CCAAAGGTCTCAGCCATCCA,yarrowia_lipolytica,1.0,XP_503627.1,RC,2836,2856,LYS2,Protein: XP_503627.1,yarrowia_lipolytica_cds.fna,437,0,0,0,0,0,0
+11293,CTCCAGATGATTGCCATCGG,yarrowia_lipolytica,1.0,XP_500977.1,F,207,227,GAP1,Protein: XP_500977.1,yarrowia_lipolytica_cds.fna,533,0,0,4,0,0,4
+16024,GATGACCAGGTGAAGATTCG,yarrowia_lipolytica,1.0,XP_503627.1,F,2157,2177,LYS2,Protein: XP_503627.1,yarrowia_lipolytica_cds.fna,648,0,0,0,0,0,0
+22749,TCTGCCACCAAGTGGATCGG,yarrowia_lipolytica,1.0,XP_503263.1,F,609,629,MET17,Protein: XP_503263.1,yarrowia_lipolytica_cds.fna,1038,0,0,0,0,0,0

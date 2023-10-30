@@ -1,0 +1,11 @@
+Unnamed: 0,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster,0mm_cds_offtargets,1mm_cds_offtargets,2mm_cds_offtargets,0mm_genome_offtargets,1mm_genome_offtargets,2mm_genome_offtargets
+2539,ACAGGTGCCATCATCATGTA,saccharomyces_cerevisiae,1.0,NP_015387.1,F,282,302,FCY1,Protein: NP_015387.1,saccharomyces_cerevisiae_cds.fna,902,0,0,0,0,0,0
+2951,ACCAAATGGATTGGTGGTCA,saccharomyces_cerevisiae,1.0,NP_013406.1,F,621,641,MET17,Protein: NP_013406.1,saccharomyces_cerevisiae_cds.fna,927,0,0,0,0,0,0
+6146,AGAATTGCTGCTTTAGAAGG,saccharomyces_cerevisiae,1.0,NP_013406.1,F,207,227,MET17,Protein: NP_013406.1,saccharomyces_cerevisiae_cds.fna,1089,0,0,0,0,0,0
+10575,ATTGCCATCGGTGGTGCCAT,saccharomyces_cerevisiae,1.0,NP_012965.3,F,291,311,GAP1,Protein: NP_012965.3,saccharomyces_cerevisiae_cds.fna,1499,0,0,0,0,0,0
+13950,CATTTGCAAATGATTGCCAT,saccharomyces_cerevisiae,1.0,NP_012965.3,F,279,299,GAP1,Protein: NP_012965.3,saccharomyces_cerevisiae_cds.fna,1639,0,0,0,0,0,0
+14924,CCTGCTTCTGAATCAAACAA,saccharomyces_cerevisiae,1.0,NP_010290.3,RC,229,249,TRP1,Protein: NP_010290.3,saccharomyces_cerevisiae_cds.fna,1802,0,0,0,0,0,0
+17409,CTTGGTGGTACTATTGGTAC,saccharomyces_cerevisiae,1.0,NP_010851.1,F,291,311,CAN1,Protein: NP_010851.1,saccharomyces_cerevisiae_cds.fna,1547,0,0,0,0,0,0
+23362,GCAGACATTACGAATGCACA,saccharomyces_cerevisiae,1.0,NP_010893.3,F,345,365,URA3,Protein: NP_010893.3,saccharomyces_cerevisiae_cds.fna,2429,0,0,0,0,0,0
+27028,GGTGAGATTTATGTTCGTGC,saccharomyces_cerevisiae,1.0,NP_009673.1,F,1857,1877,LYS2,Protein: NP_009673.1,saccharomyces_cerevisiae_cds.fna,2719,0,0,0,0,0,0
+27466,GTAAACATATCTCTTTGAAT,saccharomyces_cerevisiae,1.0,NP_009673.1,RC,2758,2778,LYS2,Protein: NP_009673.1,saccharomyces_cerevisiae_cds.fna,2751,0,0,0,0,0,0

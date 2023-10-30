@@ -1,0 +1,9 @@
+Unnamed: 0,sequence,target,score,chromosome_or_gene,strand,start_position,end_position,orthologous_to,misc,path,cluster,0mm_cds_offtargets,1mm_cds_offtargets,2mm_cds_offtargets,0mm_genome_offtargets,1mm_genome_offtargets,2mm_genome_offtargets
+1878,ACCAAGTGGATTGGTGGTCA,kluyveromyces_marxianus,1.0,XP_022674188.1,F,618,638,MET17,Protein: XP_022674188.1,kluyveromyces_marxianus_cds.fna,125,0,0,0,0,0,0
+2681,ACTCATTTGACACCAGCTAT,kluyveromyces_marxianus,1.0,XP_022678348.1,F,1512,1532,LYS2,Protein: XP_022678348.1,kluyveromyces_marxianus_cds.fna,105,0,0,0,0,0,0
+6627,ATTGGTGGTGCCATTGGTAC,kluyveromyces_marxianus,1.0,XP_022673914.1,F,273,293,GAP1,Protein: XP_022673914.1,kluyveromyces_marxianus_cds.fna,356,0,0,1,0,0,1
+7912,CACTCTGCTACCAAGTGGAT,kluyveromyces_marxianus,1.0,XP_022674188.1,F,609,629,MET17,Protein: XP_022674188.1,kluyveromyces_marxianus_cds.fna,389,0,0,0,0,0,0
+17995,GGCATGAACTTGGCCTTGAA,kluyveromyces_marxianus,1.0,XP_022673643.1,RC,286,306,CAN1,Protein: XP_022673643.1,kluyveromyces_marxianus_cds.fna,826,0,0,0,0,0,0
+20644,GTGAACATATCTCTTTGGAT,kluyveromyces_marxianus,1.0,XP_022678348.1,RC,2749,2769,LYS2,Protein: XP_022678348.1,kluyveromyces_marxianus_cds.fna,891,0,0,0,0,0,0
+22841,TCTGCTACCAAGTGGATTGG,kluyveromyces_marxianus,1.0,XP_022674188.1,F,612,632,MET17,Protein: XP_022674188.1,kluyveromyces_marxianus_cds.fna,1020,0,0,0,0,0,0
+23408,TTATACAGAACTGGTGATTT,kluyveromyces_marxianus,1.0,XP_022678348.1,F,2019,2039,LYS2,Protein: XP_022678348.1,kluyveromyces_marxianus_cds.fna,1108,0,0,0,0,0,0

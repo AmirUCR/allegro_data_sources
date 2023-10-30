@@ -1,0 +1,2 @@
+query_name,strand,reference_name,mapping_position,aligned_seq,mismatch,guide_w_pam,guide,num_mutations
+READ_33,+,lcl|NC_001137.3_cds_NP_010893.3_1501,360,GCACACGGTGTGGTGGGCCCAGG,Exact Match,GCACACGGTGTGGTGGGCCCAGG,GCACACGGTGTGGTGGGCCC,0
