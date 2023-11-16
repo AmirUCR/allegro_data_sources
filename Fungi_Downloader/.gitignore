@@ -1,4 +1,5 @@
 data/
+for_ms_fang/
 src/utils/diamond/inputs/databases/
 src/utils/ortholog_finder/orthogroups/
 src/downloaders/MycoCosm/authenticate.txt
