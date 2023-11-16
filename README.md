@@ -19,27 +19,29 @@ pip install pandas
 pip install biopython
 pip install PyYAML
 pip install requests
+conda install -c bioconda bowtie
 ```
 
 ## Gathering the Data
-The order you should visit these files is as follows:
+The order you should download from these databases is as follows:
 
 1. NCBI
 2. FungiDB
 3. EnsemblFungi
 4. MycoCosm
-5. copy_db_union.py
-6. fourdbs_concat/fix.ipynb
 
-For steps 1 through 4, visit here: https://drive.google.com/drive/folders/1FSkpgUBtfJ4NcyftYYQicKJLKNVGUR9d?usp=drive_link 
-After downloading data from each database, run the appropriate `2_add_gene_prot_names.py` to homogenize protein/CDS ID conventions.
+For steps 1 through 4, visit here: https://drive.google.com/drive/folders/1FSkpgUBtfJ4NcyftYYQicKJLKNVGUR9d?usp=drive_link
 
-Then run `copy_db_union.py` to merge all databases and place the unique species in directory `fourdb_concat`. Run all cells in `fourdbs_concat/fix.ipynb` to remove non-unicode characters (e.g., punctuations) from file names. This will also remove species with six or seven missing orthologs (we find these species in the next step after running diamond. After diamond is finished, we find these species in `diamond/analysis_missing_orthologs.ipynb`).
+
+You need to perform the mandatory steps in [Data Source] NCBI Datasets and [Data Source] MycoCosm. These two databases need special authentication methods AKA your own credentials. The other two documents for data sources are for your reference and no further action is needed from you.
+
+
+Run `$ python src/main.py` and download 1 through 4. Then merge the databases using option 5. Alternatively, run option 6 to do all of the above automatically. This may take a couple of hours, I recommend using tmux or screen to run it in the background.
 
 
 ## Generating Orthologs
 
-Create a conda environment with Python version 2.7 and activate it. Install diamond:
+Create a conda environment with Python version 2.7 and activate it. Install Diamond:
 
 ```
 conda create -n diamond python=2.7
@@ -49,9 +51,10 @@ conda install -c bioconda diamond
 
 Remaining steps:
 
-7. diamond/0_just_run_this.sh
-8. ortholog_finder
+5. diamond/0_just_run_this.sh
+6. (optional) the jupyter notebook 5_analysis_missing_orthologs.ipynb
+7. ortholog_finder/find_orthogroup.py
 
-At this point, we are ready to run DIAMOND to find orthologs to the _Saccharomyces cerevisiae_ genes specified in `diamond/make_proteome_config.yaml` Open this yaml file and update the `cds_path` and `proteome_path` to point to the absolute paths of `fourdbs_concat/cds/saccharomyces_cerevisiae_cds.fna` and `fourdbs_concat/proteomes/saccharomyces_cerevisiae.faa` Proceed with step 7 above `$ sh 0_just_run_this.sh` which will automatically run the other four scripts and produce `Orthogroups.tsv`
+At this point, we are ready to run DIAMOND to find orthologs to the _Saccharomyces cerevisiae_ genes specified in `diamond/make_proteome_config.yaml` Open this yaml file and update the `cds_path` and `proteome_path` to point to the absolute paths of `fourdbs_concat/cds/saccharomyces_cerevisiae_cds.fna` and `fourdbs_concat/proteomes/saccharomyces_cerevisiae.faa` Proceed with step 5 above `$ sh 0_just_run_this.sh` which will automatically run the other four scripts and produce `Orthogroups.tsv`
 
-Copy `Orthogroups.tsv` and place it in the directory `ortholog_finder`. Switch back to the `allegro` conda environment and proceed with step 8 above `$ python find_orthogroup.py` This script generates a final species list and an output folder which we input to ALLEGRO. The cds files in the output of this script contain the appropriate orthologs for each species. Copy the final input species csv file, along with the generated CDS as input to ALLEGRO.
+Copy `Orthogroups.tsv` and place it in the directory `ortholog_finder`. Switch back to the `allegro` conda environment and proceed with step 7 above `$ python find_orthogroup.py` This script generates a final species list and an output folder which we input to ALLEGRO. The cds files in the output of this script contain the appropriate orthologs for each species. Copy the final input species csv file, along with the generated CDS as input to ALLEGRO.
